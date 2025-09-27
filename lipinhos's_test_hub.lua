@@ -25,7 +25,7 @@ local localTab = Window:MakeTab({
 })
 
 --sections
-
+ 
 --section blox fruits
 KeylessTab:AddSection({
     Name = "Blox Fruits"
@@ -57,16 +57,16 @@ KeyedTab:AddSection({
 })
 
 KeylessTab:AddButton({
-    Name = "Example Script",
+    Name = "adibhub",
     Callback = function()
        loadstring(game:HttpGet("https://raw.githubusercontent.com/adibhub1/99-nighit-in-forest/refs/heads/main/99%20night%20in%20forest"))()
     end
 })
 
 KeyedTab:AddButton({
-    Name = "Example Script",
+    Name = "Moondiety (BE CAREFUL, MIGHT KICK YOU)",
     Callback = function()
-        -- Add your 99 Nights keyed script here
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/m00ndiety/99-nights-in-the-forest/refs/heads/main/Main"))()
     end
 })
 
